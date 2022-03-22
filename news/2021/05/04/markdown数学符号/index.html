@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Markdown 数学符号 | BoobooWei</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://www.toberoot.com/news/2021/05/04/markdown%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7/index.html">
+  <!-- Alternative links -->
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="BoobooWei" type="application/atom+xml">
+  <!-- Open Graph -->
+  <meta name="description" content="Markdown 数学符号 行内公式直接用&#96;包围就行如&#96;$ \iint_D f(x,y)d\sigma,效果就是：d%5Csigma) 行间公式（公式在单独一行）就用$$$$（前后两个$）包围,如$$$ \iint_D f(x,y)d\sigma $$$,效果就是d%5Csigma)  下面附上一些希腊字母，公式中的特殊符号在markdown语法： 希腊字母    字母 语法 字母 语法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 数学符号">
+<meta property="og:url" content="http://www.toberoot.com/news/2021/05/04/markdown%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7/">
+<meta property="og:site_name" content="BoobooWei">
+<meta property="og:description" content="Markdown 数学符号 行内公式直接用&#96;包围就行如&#96;$ \iint_D f(x,y)d\sigma,效果就是：d%5Csigma) 行间公式（公式在单独一行）就用$$$$（前后两个$）包围,如$$$ \iint_D f(x,y)d\sigma $$$,效果就是d%5Csigma)  下面附上一些希腊字母，公式中的特殊符号在markdown语法： 希腊字母    字母 语法 字母 语法">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=A">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=B">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CGamma">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cgamma">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CDelta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdelta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=E">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cepsilon">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=Z">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Czeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=H">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ceta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CTheta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctheta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=I">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciota">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=K">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ckappa">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLambda">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clambda">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=M">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmu">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=N">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnu">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CXi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cxi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=O">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Comicron">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CPi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=P">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Crho">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CSigma">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csigma">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=T">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctau">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CUpsilon">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cupsilon">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CPhi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cphi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cchi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CPsi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpsi">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5COmega">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Comega">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%2B%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20-%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Ctimes%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Ccdot%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cast%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cdiv%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrac%20xy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5E%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20_%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqrt%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqrt%5Bx%5D%7By%5E4%2B3y-1%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clceil%5Cfrac12%5Crceil">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clfloor%5Cfrac12%5Crfloor">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cpm%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cmp%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%3D%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cleq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cgeq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cngeq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cnot%5Cgeq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cneq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Capprox%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cequiv%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cbigodot%20y%3Dx%2By%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cbigotimes%20y%3Dx%2By%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cin%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cnotin%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Csubset%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Cnot%5Csubset%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Csubseteq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Csupset%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Csupseteq%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Ccup%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%20%5Ccap%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clog(x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverline%7Bx%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverline%7Ba%2Bb%2Bc%2Bd%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cunderline%7Ba%2Bb%2Bc%2Bd%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverbrace%7Ba%2B%5Cunderbrace%7Bb%2Bc%7D_%7B1.0%7D%2Bd%7D%5E%7B2.0%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cunderbrace%7Ba%2Bd%7D_3">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrac%7B%5Cpartial%20x%7D%7B%5Cpartial%20y%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clim_%7Bx%5Cto%5Cinfty%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdisplaystyle%20%5Clim_%7Bx%5Cto%5Cinfty%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csum_%7Bi%3D1%7D%5En">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csum_%7Bi%3D0%7D%5E%5Cinfty%20i%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cint_0%5E1%20x%5E2%20%7B%5Crm%20d%7Dx">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coint%20e%5E%7Bx%2By%7D%20ds">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=1%2C2%2C%5Cldots%2Cn">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x_1%5E2%20%2B%20x_2%5E2%20%2B%20%5Ccdots%20%2B%20x_n%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cuparrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CUparrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cvec%7Ba%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chat%20Y%20%3D%20%5Chat%20%5Cbeta_0%20%2B%20%5Chat%20%5Cbeta_1X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=A%20%5Cbot%20B">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=45%5E%5Ccirc">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=(%5Cfrac12">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleft(%5Cfrac12%5Cright">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleft%5C%7B%5Cbegin%7Barray%7D%5C%5Cy%3D2x%5E2%2B1%5C%5C%7By%3D4x%3B%7D%5C%5Cy-z%3Dx%3B%20%5Cend%7Barray%7D%5Cright.">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csideset%7B%5E1_2%7D%7B%5E3_4%7D%5Cbigotimes">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbar%7Bx%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cacute%7B%5Ceta%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccheck%7B%5Calpha%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cgrave%7B%5Ceta%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbreve%7Ba%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cddot%7By%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdot%7Bx%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chat%7B%5Calpha%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctilde%7B%5Ciota%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csin%5C!%5Ctheta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccos%5C!%5Ctheta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctan%5C!%5Ctheta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Carcsin%5Cfrac%7BL%7D%7Br%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Carccos%5Cfrac%7BT%7D%7Br%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Carctan%5Cfrac%7BL%7D%7BT%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csinh%5C!g">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccosh%5C!h">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctanh%5C!i">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bsh%7Dj">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargsh%7Dk">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bch%7Dh">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargch%7Dl">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bth%7Di">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargth%7Dm">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=k%27(x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Climsup%20S">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Climinf%20I">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmax%5C!H">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmin%5C!L">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cinf%20s">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csup%20t">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cexp%5C!t">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cln%5C!X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clg%5C!X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clog%5C!X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clog_%5Calpha%5C!X">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cker%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdeg%5C!x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5C!%5Cgcd(T%2CU%2CV%2CW%2CX">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CPr%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdet%5C!x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chom%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Carg%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdim%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clim_%7Bt%5Cto%20n%7DT">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpmod%20%7Bm%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=a%20%5Cbmod%20b">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnabla">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpartial%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmathrm%7Bd%7Dx">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdot%20x">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cddot%20y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cforall">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cexists">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cempty">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cemptyset">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cvarnothing">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cin">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cni">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnot%5Cin">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnotin">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csubset">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csubseteq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csupset">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csupseteq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccap">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigcap">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccup">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigcup">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbiguplus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqsubset">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqsubseteq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqsupset">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqsupseteq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqcap">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqcup">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=p">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cland">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cwedge">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigwedge">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpagecolor%7BWhite%7D%20%5Cbar%7Bq%7D%20%5Cto%20p">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clor">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cvee">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigvee">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clnot">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cneg%20q">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csetminus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csmallsetminus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqrt%7B2%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqrt%5B2%5D%7B5%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CDelta%20ABC%5Csim%5CDelta%20XYZ%5C!">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csqrt%7B3%7D%5Capprox1.732050808%5Cldots">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csimeq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccong">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdot%3D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cggg">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cgg">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%3E%5C%2C">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cge">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cgeqq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%3D%5C%2C">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleqq">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%3C%5C%2C">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cll">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clll">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=(x-y">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%5Cnot%5Cequiv%20N">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%5Cne%20A">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%5Cneq%20C">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=t%5Cpropto%20v">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cpm">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CDiamond">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CBox">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CDelta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctriangle">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cangle%5CAlpha%5CBeta%5CGamma">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csin%20%5Cfrac%7B%5Cpi%7D%7B3%7D%3D%5Csin60%5E%5Ccirc%3D%5Cfrac%7B%5Csqrt%7B3%7D%7D%7B2%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cperp">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleftarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cgets">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Crightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cto">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleftrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clongleftarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clongrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmapsto">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clongmapsto">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chookrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chookleftarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnearrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csearrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cswarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnwarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cuparrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdownarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cupdownarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Crightharpoonup">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Crightharpoondown">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleftharpoonup">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cleftharpoondown">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cupharpoonleft">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cupharpoonright">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLeftarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CRightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLeftrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLongleftarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLongrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CLongleftrightarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CUparrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CDownarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CUpdownarrow">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ceth">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CS">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5C%25">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdagger">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cddagger">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cstar">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=*">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cldots">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csmile">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrown">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cwr">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coplus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigoplus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cotimes">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigotimes">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctimes">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccdot">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdiv">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccirc">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbullet">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigodot">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cboxtimes">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cboxplus">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctriangleleft">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctriangleright">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cinfty">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbot">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ctop">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cvdash">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CvDash">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CVdash">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmodels">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5ClVert">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CrVert">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cimath">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Chbar">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cell">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cmho">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CFinv">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CRe">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CIm">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cwp">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccomplement">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdiamondsuit">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cheartsuit">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cclubsuit">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cspadesuit">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5CGame">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cflat">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cnatural">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csharp">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=a%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=a_2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=a%5E%7B2%2B2%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=a_%7Bi%2Cj%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x_2%5E3">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%7B%7D_1%5E2%5C!X_3%5E4">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=x%27">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cdot%7Bx%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cddot%7By%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cvec%7Bc%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverleftarrow%7Ba%20b%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverrightarrow%7Bc%20d%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cwidehat%7Be%20f%20g%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverset%7B%5Cfrown%7D%20%7BAB%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverline%7Bh%20i%20j%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cunderline%7Bk%20l%20m%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coverbrace%7B1%2B2%2B%5Ccdots%2B100%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%205050%20%5C%5C%20%5Coverbrace%7B%201%2B2%2B%5Ccdots%2B100%20%7D%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cunderbrace%7Ba%2Bb%2B%5Ccdots%2Bz%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cunderbrace%7B%20a%2Bb%2B%5Ccdots%2Bz%20%7D%20%5C%5C%2026%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Csum_%7Bk%3D1%7D%5EN%20k%5E2">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Csum_%7Bk%3D1%7D%5EN%20k%5E2%20%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cprod_%7Bi%3D1%7D%5EN%20x_i">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cprod_%7Bi%3D1%7D%5EN%20x_i%20%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ccoprod_%7Bi%3D1%7D%5EN%20x_i">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Ccoprod_%7Bi%3D1%7D%5EN%20x_i%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Clim_%7Bn%20%5Cto%20%5Cinfty%7Dx_n">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Clim_%7Bn%20%5Cto%20%5Cinfty%7Dx_n%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cint_%7B-N%7D%5E%7BN%7D%20e%5Ex%5C%2C%20dx">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cint_%7B-N%7D%5E%7BN%7D%20e%5Ex%5C%2C%20dx%5Cend%7Bmatrix%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciint_%7BD%7D%5E%7BW%7D%20%5C%2C%20dx%5C%2Cdy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciiint_%7BE%7D%5E%7BV%7D%20%5C%2C%20dx%5C%2Cdy%5C%2Cdz">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Ciiiint_%7BF%7D%5E%7BU%7D%20%5C%2C%20dx%5C%2Cdy%5C%2Cdz%5C%2Cdt">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Coint_%7BC%7D%20x%5E3%5C%2C%20dx%20%2B%204y%5E2%5C%2C%20dy">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigcap_1%5E%7Bn%7D%20p">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cbigcup_1%5E%7Bk%7D%20p">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5Cqquad%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5Cquad%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5C%20%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrac%7Bm%7D%7B3%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5C%3B%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrac%7B2m%7D%7B7%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5C%2C%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Cfrac%7Bm%7D%7B6%7D">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=%5Calpha%5C!%5Cbeta">
+<meta property="og:image" content="https://math.jianshu.com/math?formula=-%5Cfrac%7Bm%7D%7B6%7D">
+<meta property="article:published_time" content="2021-05-04T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-22T03:27:46.586Z">
+<meta property="article:author" content="魏亚萍">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48498357-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+  <!-- at the end of the HEAD -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href='/' id="logo">ToBeRoot</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/api/" class="main-nav-link">MySQL8.0</a><a href="/database/" class="main-nav-link">Database</a><a href="/devops/" class="main-nav-link">DevOps</a><a href="/linux/" class="main-nav-link">Linux</a><a href="/cloud/" class="main-nav-link">Cloud</a><a href="/mse/" class="main-nav-link">MSE</a><a href="/singapore/" class="main-nav-link">Singapore</a><a href="/news/" class="main-nav-link">News</a>
+      <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/BoobooWei" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <a href="/themes/" class="main-nav-link"><label id="lang-select-label"><i class="fa fa-globe"></i><span>技术广角</span></label></a>
+    </div>
+
+
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      <article class="article post" itemscope itemtype="http://schema.org/Article">
+  <header class="article-header">
+    
+      <h1 class="article-title" itemprop="name">Markdown 数学符号</h1>
+    
+    <a href="/news/2021/05/04/markdown%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7/" class="article-date"><time datetime="2021-05-04T00:00:00.000Z">2021-05-04</time></a>
+  </header>
+  <div class="article-content" itemprop="articleBody">
+    <h1 id="Markdown-数学符号" class="article-heading"><a href="#Markdown-数学符号" class="headerlink" title="Markdown 数学符号"></a>Markdown 数学符号<a class="article-anchor" href="#Markdown-数学符号" aria-hidden="true"></a></h1><ul>
+<li>行内公式直接用<script type="math/tex">`包围就行如`$ \iint_D f(x,y)d\sigma</script>,效果就是：<img src="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy" alt="\iint_D f(x,y)d\sigma">d%5Csigma)</li>
+<li>行间公式（公式在单独一行）就用$$$$（前后两个$）包围,<br>如$$$ \iint_D f(x,y)d\sigma $$$,效果就是<img src="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy" alt="\iint_D f(x,y)d\sigma">d%5Csigma)</li>
+</ul>
+<p>下面附上一些希腊字母，公式中的特殊符号在markdown语法：</p>
+<h3 id="希腊字母" class="article-heading"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母<a class="article-anchor" href="#希腊字母" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字母</th>
+<th>语法</th>
+<th>字母</th>
+<th>语法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=A" alt="A"></td>
+<td>A</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha" alt="\alpha"></td>
+<td>\alhpa</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=B" alt="B"></td>
+<td>B</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbeta" alt="\beta"></td>
+<td>\beta</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CGamma" alt="\Gamma"></td>
+<td>\Gamma</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cgamma" alt="\gamma"></td>
+<td>\gamma</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CDelta" alt="\Delta"></td>
+<td>\Delta</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdelta" alt="\delta"></td>
+<td>\delta</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=E" alt="E"></td>
+<td>E</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cepsilon" alt="\epsilon"></td>
+<td>\epsilon</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=Z" alt="Z"></td>
+<td>Z</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Czeta" alt="\zeta"></td>
+<td>\zeta</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=H" alt="H"></td>
+<td>H</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ceta" alt="\eta"></td>
+<td>\eta</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CTheta" alt="\Theta"></td>
+<td>\Theta</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctheta" alt="\theta"></td>
+<td>\theta</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=I" alt="I"></td>
+<td>I</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ciota" alt="\iota"></td>
+<td>\iota</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=K" alt="K"></td>
+<td>K</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ckappa" alt="\kappa"></td>
+<td>\kappa</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CLambda" alt="\Lambda"></td>
+<td>\Lambda</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clambda" alt="\lambda"></td>
+<td>\lambda</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=M" alt="M"></td>
+<td>M</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmu" alt="\mu"></td>
+<td>\mu</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=N" alt="N"></td>
+<td>N</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnu" alt="\nu"></td>
+<td>\nu</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CXi" alt="\Xi"></td>
+<td>\Xi</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cxi" alt="\xi"></td>
+<td>\xi</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=O" alt="O"></td>
+<td>O</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Comicron" alt="\omicron"></td>
+<td>\omicron</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CPi" alt="\Pi"></td>
+<td>\Pi</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpi" alt="\pi"></td>
+<td>\pi</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=P" alt="P"></td>
+<td>P</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Crho" alt="\rho"></td>
+<td>\rho</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CSigma" alt="\Sigma"></td>
+<td>\Sigma</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csigma" alt="\sigma"></td>
+<td>\sigma</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=T" alt="T"></td>
+<td>T</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctau" alt="\tau"></td>
+<td>\tau</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CUpsilon" alt="\Upsilon"></td>
+<td>\Upsilon</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cupsilon" alt="\upsilon"></td>
+<td>\upsilon</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CPhi" alt="\Phi"></td>
+<td>\Phi</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cphi" alt="\phi"></td>
+<td>\phi</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=X" alt="X"></td>
+<td>X</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cchi" alt="\chi"></td>
+<td>\chi</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5CPsi" alt="\Psi"></td>
+<td>\Psi</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpsi" alt="\psi"></td>
+<td>\psi</td>
+</tr>
+<tr>
+<td><img src="https://math.jianshu.com/math?formula=%5COmega" alt="\Omega"></td>
+<td>\Omega</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Comega" alt="\omega"></td>
+<td>\omega</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="数学符号" class="article-heading"><a href="#数学符号" class="headerlink" title="数学符号"></a>数学符号<a class="article-anchor" href="#数学符号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>说明</th>
+<th>实例</th>
+<th>代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>加</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%2B%20y" alt="x + y"></td>
+<td><script type="math/tex">x + y</script></td>
+</tr>
+<tr>
+<td>-</td>
+<td>减</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20-%20y" alt="x - y"></td>
+<td><script type="math/tex">x - y</script></td>
+</tr>
+<tr>
+<td>\times</td>
+<td>乘</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Ctimes%20y" alt="x \times y"></td>
+<td><script type="math/tex">x \times y</script></td>
+</tr>
+<tr>
+<td>\cdot</td>
+<td>乘</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Ccdot%20y" alt="x \cdot y"></td>
+<td><script type="math/tex">x \cdot y</script></td>
+</tr>
+<tr>
+<td>\ast</td>
+<td>乘</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cast%20y" alt="x \ast y"></td>
+<td><script type="math/tex">x \ast y</script></td>
+</tr>
+<tr>
+<td>\div</td>
+<td>除</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cdiv%20y" alt="x \div y"></td>
+<td><script type="math/tex">x \div y</script></td>
+</tr>
+<tr>
+<td>\frac</td>
+<td>分数</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrac%20xy" alt="\frac xy"></td>
+<td><script type="math/tex">\frac{x}{y}</script></td>
+</tr>
+<tr>
+<td>^</td>
+<td>上标</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5E%20y" alt="x ^ y"></td>
+<td><script type="math/tex">x ^ y</script></td>
+</tr>
+<tr>
+<td>_</td>
+<td>下标</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20_%20y" alt="x _ y"></td>
+<td><script type="math/tex">x _ y</script></td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>开二次方</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqrt%20x" alt="\sqrt x"></td>
+<td><script type="math/tex">\sqrt x</script></td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>开方</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqrt%5Bx%5D%7By%5E4%2B3y-1%7D" alt="\sqrt[x]{y^4+3y-1}"></td>
+<td><script type="math/tex">\sqrt[x]{y^4+3y-1}</script></td>
+</tr>
+<tr>
+<td>\lceil 和 \rceil</td>
+<td>上取整</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clceil%5Cfrac12%5Crceil" alt="\lceil\frac12\rceil"></td>
+<td><script type="math/tex">\lceil\frac12\rceil</script></td>
+</tr>
+<tr>
+<td>\lfloor 和 \rfloor</td>
+<td>下取整</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clfloor%5Cfrac12%5Crfloor" alt="\lfloor\frac12\rfloor"></td>
+<td><script type="math/tex">\lfloor\frac12\rfloor</script></td>
+</tr>
+<tr>
+<td>\pm</td>
+<td>加减</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cpm%20y" alt="x \pm y"></td>
+<td><script type="math/tex">x \pm y</script></td>
+</tr>
+<tr>
+<td>\mp</td>
+<td>减加</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cmp%20y" alt="x \mp y"></td>
+<td><script type="math/tex">x \mp y</script></td>
+</tr>
+<tr>
+<td>=</td>
+<td>等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%3D%20y" alt="x = y"></td>
+<td><script type="math/tex">x = y</script></td>
+</tr>
+<tr>
+<td>\leq</td>
+<td>小于等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cleq%20y" alt="x \leq y"></td>
+<td><script type="math/tex">x \leq y</script></td>
+</tr>
+<tr>
+<td>\geq</td>
+<td>大于等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cgeq%20y" alt="x \geq y"></td>
+<td><script type="math/tex">x \geq y</script></td>
+</tr>
+<tr>
+<td>\ngeq</td>
+<td>不大于等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cngeq%20y" alt="x \ngeq y"></td>
+<td><script type="math/tex">x \ngeq y</script></td>
+</tr>
+<tr>
+<td>\not\geq</td>
+<td>不大于等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cnot%5Cgeq%20y" alt="x \not\geq y"></td>
+<td><script type="math/tex">x \not\geq y</script></td>
+</tr>
+<tr>
+<td>\neq</td>
+<td>不等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cneq%20y" alt="x \neq y"></td>
+<td><script type="math/tex">x \neq y</script></td>
+</tr>
+<tr>
+<td>\approx</td>
+<td>约等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Capprox%20y" alt="x \approx y"></td>
+<td><script type="math/tex">x \approx y</script></td>
+</tr>
+<tr>
+<td>\equiv</td>
+<td>恒等于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cequiv%20y" alt="x \equiv y"></td>
+<td><script type="math/tex">x \equiv y</script></td>
+</tr>
+<tr>
+<td>\bigodot</td>
+<td>定义运算符</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cbigodot%20y%3Dx%2By%5E2" alt="x \bigodot y=x+y^2"></td>
+<td><script type="math/tex">x \bigodot y=x+y^2</script></td>
+</tr>
+<tr>
+<td>\bigotimes</td>
+<td>定义运算符</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cbigotimes%20y%3Dx%2By%5E2" alt="x \bigotimes y=x+y^2"></td>
+<td><script type="math/tex">x \bigotimes y=x+y^2</script></td>
+</tr>
+<tr>
+<td>\in</td>
+<td>属于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cin%20y" alt="x \in y"></td>
+<td><script type="math/tex">x \in y</script></td>
+</tr>
+<tr>
+<td>\notin</td>
+<td>不属于</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cnotin%20y" alt="x \notin y"></td>
+<td><script type="math/tex">x \notin y</script></td>
+</tr>
+<tr>
+<td>\subset</td>
+<td>子集</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Csubset%20y" alt="x \subset y"></td>
+<td><script type="math/tex">x \subset y</script></td>
+</tr>
+<tr>
+<td>\not\subset</td>
+<td>非子集</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Cnot%5Csubset%20y" alt="x \not\subset y"></td>
+<td><script type="math/tex">x \not\subset y</script></td>
+</tr>
+<tr>
+<td>\subseteq</td>
+<td>子集</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Csubseteq%20y" alt="x \subseteq y"></td>
+<td><script type="math/tex">x \subseteq y</script></td>
+</tr>
+<tr>
+<td>\supset</td>
+<td>超集</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Csupset%20y" alt="x \supset y"></td>
+<td><script type="math/tex">x \supset y</script></td>
+</tr>
+<tr>
+<td>\supseteq</td>
+<td>超集</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Csupseteq%20y" alt="x \supseteq y"></td>
+<td><script type="math/tex">x \supseteq y</script></td>
+</tr>
+<tr>
+<td>\cup</td>
+<td>并</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Ccup%20y" alt="x \cup y"></td>
+<td><script type="math/tex">x \cup y</script></td>
+</tr>
+<tr>
+<td>\cap</td>
+<td>交</td>
+<td><img src="https://math.jianshu.com/math?formula=x%20%5Ccap%20y" alt="x \cap y"></td>
+<td><script type="math/tex">x \cap y</script></td>
+</tr>
+<tr>
+<td>\log</td>
+<td>对数</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clog(x" alt="\log(x)">)</td>
+<td><script type="math/tex">\log(x)</script></td>
+</tr>
+<tr>
+<td>\overline</td>
+<td>平均数</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverline%7Bx%7D" alt="\overline{x}"></td>
+<td><script type="math/tex">\overline{x}</script></td>
+</tr>
+<tr>
+<td>\overline</td>
+<td>连线符号</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverline%7Ba%2Bb%2Bc%2Bd%7D" alt="\overline{a+b+c+d}"></td>
+<td><script type="math/tex">\overline{a+b+c+d}</script></td>
+</tr>
+<tr>
+<td>\underline</td>
+<td>下划线</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cunderline%7Ba%2Bb%2Bc%2Bd%7D" alt="\underline{a+b+c+d}"></td>
+<td><script type="math/tex">\underline{a+b+c+d}</script></td>
+</tr>
+<tr>
+<td>\overbrace</td>
+<td>上大括号</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverbrace%7Ba%2B%5Cunderbrace%7Bb%2Bc%7D_%7B1.0%7D%2Bd%7D%5E%7B2.0%7D" alt="\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}"></td>
+<td><script type="math/tex">\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}</script></td>
+</tr>
+<tr>
+<td>\underbrace</td>
+<td>下大括号</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cunderbrace%7Ba%2Bd%7D_3" alt="\underbrace{a+d}_3"></td>
+<td><script type="math/tex">\underbrace{a+d}_3</script></td>
+</tr>
+<tr>
+<td>\partial</td>
+<td>部分</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrac%7B%5Cpartial%20x%7D%7B%5Cpartial%20y%7D" alt="\frac{\partial x}{\partial y}"></td>
+<td><script type="math/tex">\frac{\partial x}{\partial y}</script></td>
+</tr>
+<tr>
+<td>\lim</td>
+<td>极限</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clim_%7Bx%5Cto%5Cinfty%7D" alt="\lim_{x\to\infty}"></td>
+<td><script type="math/tex">\lim_{x\to\infty}</script></td>
+</tr>
+<tr>
+<td>\displaystyle</td>
+<td>块公式格式</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdisplaystyle%20%5Clim_%7Bx%5Cto%5Cinfty%7D" alt="\displaystyle \lim_{x\to\infty}"></td>
+<td><script type="math/tex">\displaystyle \lim_{x\to\infty}</script></td>
+</tr>
+<tr>
+<td>\sum</td>
+<td>求和</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csum_%7Bi%3D1%7D%5En" alt="\sum_{i=1}^n"></td>
+<td><script type="math/tex">\sum_{i=1}^n</script></td>
+</tr>
+<tr>
+<td>\infty</td>
+<td>极限</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csum_%7Bi%3D0%7D%5E%5Cinfty%20i%5E2" alt="\sum_{i=0}^\infty i^2"></td>
+<td><script type="math/tex">\sum_{i=0}^\infty i^2</script></td>
+</tr>
+<tr>
+<td>\int</td>
+<td>积分</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cint_0%5E1%20x%5E2%20%7B%5Crm%20d%7Dx" alt="\int_0^1 x^2 {\rm d}x"></td>
+<td><script type="math/tex">\int_0^1 x^2 {\rm d}x</script></td>
+</tr>
+<tr>
+<td>\iint</td>
+<td>二重积分</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ciint_D%20f(x%2Cy" alt="\iint_D f(x,y)d\sigma">d%5Csigma)</td>
+<td><script type="math/tex">\iint_D f(x,y)d\sigma</script></td>
+</tr>
+<tr>
+<td>\oint</td>
+<td>曲面积分</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coint%20e%5E%7Bx%2By%7D%20ds" alt="\oint e^{x+y} ds"></td>
+<td><script type="math/tex">\oint e^{x+y} ds</script></td>
+</tr>
+<tr>
+<td>\ldots</td>
+<td>底端对齐的省略号</td>
+<td><img src="https://math.jianshu.com/math?formula=1%2C2%2C%5Cldots%2Cn" alt="1,2,\ldots,n"></td>
+<td><script type="math/tex">1,2,\ldots,n</script></td>
+</tr>
+<tr>
+<td>\cdots</td>
+<td>中线对齐的省略号</td>
+<td><img src="https://math.jianshu.com/math?formula=x_1%5E2%20%2B%20x_2%5E2%20%2B%20%5Ccdots%20%2B%20x_n%5E2" alt="x_1^2 + x_2^2 + \cdots + x_n^2"></td>
+<td><script type="math/tex">x_1^2 + x_2^2 + \cdots + x_n^2</script></td>
+</tr>
+<tr>
+<td>\uparrow</td>
+<td>上箭头</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cuparrow" alt="\uparrow"></td>
+<td><script type="math/tex">\uparrow</script></td>
+</tr>
+<tr>
+<td>\Uparrow</td>
+<td>上箭头</td>
+<td><img src="https://math.jianshu.com/math?formula=%5CUparrow" alt="\Uparrow"></td>
+<td><script type="math/tex">\Uparrow</script></td>
+</tr>
+<tr>
+<td>\vec</td>
+<td>向量</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cvec%7Ba%7D" alt="\vec{a}"></td>
+<td><script type="math/tex">\vec{a}</script></td>
+</tr>
+<tr>
+<td>\hat</td>
+<td>拟合值</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chat%20Y%20%3D%20%5Chat%20%5Cbeta_0%20%2B%20%5Chat%20%5Cbeta_1X" alt="\hat Y = \hat \beta_0 + \hat \beta_1X"></td>
+<td><script type="math/tex">\hat Y = \hat \beta_0 + \hat \beta_1X</script></td>
+</tr>
+<tr>
+<td>\bot</td>
+<td>垂直</td>
+<td><img src="https://math.jianshu.com/math?formula=A%20%5Cbot%20B" alt="A \bot B"></td>
+<td><script type="math/tex">A \bot B</script></td>
+</tr>
+<tr>
+<td>\circ</td>
+<td>度</td>
+<td><img src="https://math.jianshu.com/math?formula=45%5E%5Ccirc" alt="45^\circ"></td>
+<td><script type="math/tex">45^\circ</script></td>
+</tr>
+<tr>
+<td>\frac</td>
+<td>括号自适应大小</td>
+<td><img src="https://math.jianshu.com/math?formula=(%5Cfrac12" alt="(\frac12)">)——<img src="https://math.jianshu.com/math?formula=%5Cleft(%5Cfrac12%5Cright" alt="\left(\frac12\right)">)——</td>
+<td><code>$(\frac12)$——$ \left(\frac12\right)$——</code></td>
+</tr>
+<tr>
+<td></td>
+<td>方程组</td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleft%5C%7B%5Cbegin%7Barray%7D%5C%5Cy%3D2x%5E2%2B1%5C%5C%7By%3D4x%3B%7D%5C%5Cy-z%3Dx%3B%20%5Cend%7Barray%7D%5Cright." alt="\left\{\begin{array}\\y=2x^2+1\\{y=4x;}\\y-z=x; \end{array}\right."></td>
+<td><script type="math/tex">\left\{\begin{array}\\y=2x^2+1\\{y=4x;}\\y-z=x; \end{array}\right.</script></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="特殊符号" class="article-heading"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号<a class="article-anchor" href="#特殊符号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>描述</th>
+<th>符号</th>
+<th>代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csideset%7B%5E1_2%7D%7B%5E3_4%7D%5Cbigotimes" alt="\sideset{^1_2}{^3_4}\bigotimes"></td>
+<td><script type="math/tex">\sideset{^1_2}{^3_4}\bigotimes</script></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<p><em>参考文章：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://links.jianshu.com/go?to=http%3A%2F%2Fblog.csdn.net%2Fwhqet%2Farticle%2Fdetails%2F44277965">http://blog.csdn.net/whqet/article/details/44277965</a></em></p>
+</blockquote>
+<h2 id="函数、符号及特殊字符" class="article-heading"><a href="#函数、符号及特殊字符" class="headerlink" title="函数、符号及特殊字符"></a>函数、符号及特殊字符<a class="article-anchor" href="#函数、符号及特殊字符" aria-hidden="true"></a></h2><h3 id="声调" class="article-heading"><a href="#声调" class="headerlink" title="声调"></a>声调<a class="article-anchor" href="#声调" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\bar{x}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbar%7Bx%7D" alt="\bar{x}"></td>
+<td><script type="math/tex">\acute{\eta}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cacute%7B%5Ceta%7D" alt="\acute{\eta}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\check{\alpha}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccheck%7B%5Calpha%7D" alt="\check{\alpha}"></td>
+<td><script type="math/tex">\grave{\eta}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cgrave%7B%5Ceta%7D" alt="\grave{\eta}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\breve{a}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbreve%7Ba%7D" alt="\breve{a}"></td>
+<td><script type="math/tex">\ddot{y}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cddot%7By%7D" alt="\ddot{y}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\dot{x}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdot%7Bx%7D" alt="\dot{x}"></td>
+<td><script type="math/tex">\hat{\alpha}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chat%7B%5Calpha%7D" alt="\hat{\alpha}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\tilde{\iota}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctilde%7B%5Ciota%7D" alt="\tilde{\iota}"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="函数" class="article-heading"><a href="#函数" class="headerlink" title="函数"></a>函数<a class="article-anchor" href="#函数" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\sin\theta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csin%5C!%5Ctheta" alt="\sin\!\theta"></td>
+<td><script type="math/tex">\cos\theta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccos%5C!%5Ctheta" alt="\cos\!\theta"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\tan\theta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctan%5C!%5Ctheta" alt="\tan\!\theta"></td>
+<td><script type="math/tex">\arcsin\frac{L}{r}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Carcsin%5Cfrac%7BL%7D%7Br%7D" alt="\arcsin\frac{L}{r}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\arccos\frac{T}{r}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Carccos%5Cfrac%7BT%7D%7Br%7D" alt="\arccos\frac{T}{r}"></td>
+<td><script type="math/tex">\arctan\frac{L}{T}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Carctan%5Cfrac%7BL%7D%7BT%7D" alt="\arctan\frac{L}{T}"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\sinh g</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csinh%5C!g" alt="\sinh\!g"></td>
+<td><script type="math/tex">\cosh h</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccosh%5C!h" alt="\cosh\!h"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\tanh i</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctanh%5C!i" alt="\tanh\!i"></td>
+<td><script type="math/tex">\operatorname{sh}j</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bsh%7Dj" alt="\operatorname{sh}j"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\operatorname{argsh}k</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargsh%7Dk" alt="\operatorname{argsh}k"></td>
+<td><script type="math/tex">\operatorname{ch}h</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bch%7Dh" alt="\operatorname{ch}h"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\operatorname{argch}l</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargch%7Dl" alt="\operatorname{argch}l"></td>
+<td><script type="math/tex">\operatorname{th}i</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bth%7Di" alt="\operatorname{th}i"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\operatorname{argth}m</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coperatorname%7Bargth%7Dm" alt="\operatorname{argth}m"></td>
+<td><script type="math/tex">k'(x)=\lim_{\Delta x\to 0}\frac{k(x)-k(x-\Delta x)}{\Deltax}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=k%27(x" alt="k&#39;(x)=\lim_{\Delta x\to0}\!\frac{k(x)-k(x-\Delta x)}{\Delta x}">%3D%5Clim_%7B%5CDelta%20x%5Cto0%7D%5C!%5Cfrac%7Bk(x)-k(x-%5CDelta%20x)%7D%7B%5CDelta%20x%7D)</td>
+</tr>
+<tr>
+<td><script type="math/tex">\limsup S</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Climsup%20S" alt="\limsup S"></td>
+<td><script type="math/tex">\liminf I</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Climinf%20I" alt="\liminf I"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\max H</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmax%5C!H" alt="\max\!H"></td>
+<td><script type="math/tex">\min L</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmin%5C!L" alt="\min\!L"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\inf s</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cinf%20s" alt="\inf s"></td>
+<td><script type="math/tex">\sup t</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csup%20t" alt="\sup t"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\exp\!t</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cexp%5C!t" alt="\exp\!t"></td>
+<td><script type="math/tex">\ln X</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cln%5C!X" alt="\ln\!X"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\lg X</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clg%5C!X" alt="\lg\!X"></td>
+<td><script type="math/tex">\log X</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clog%5C!X" alt="\log\!X"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\log_\alpha X</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clog_%5Calpha%5C!X" alt="\log_\alpha\!X"></td>
+<td><script type="math/tex">\ker x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cker%20x" alt="\ker x"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\deg x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdeg%5C!x" alt="\deg\!x"></td>
+<td><script type="math/tex">\gcd(T,U,V,W,X)</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5C!%5Cgcd(T%2CU%2CV%2CW%2CX" alt="\!\gcd(T,U,V,W,X)">)</td>
+</tr>
+<tr>
+<td><script type="math/tex">\Pr x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CPr%20x" alt="\Pr x"></td>
+<td><script type="math/tex">\det x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdet%5C!x" alt="\det\!x"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\hom x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chom%20x" alt="\hom x"></td>
+<td><script type="math/tex">\arg x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Carg%20x" alt="\arg x"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\dim x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdim%20x" alt="\dim x"></td>
+<td><script type="math/tex">\lim_{t\to n}T</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clim_%7Bt%5Cto%20n%7DT" alt="\lim_{t\to n}T"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="同余" class="article-heading"><a href="#同余" class="headerlink" title="同余"></a>同余<a class="article-anchor" href="#同余" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\pmod {m}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpmod%20%7Bm%7D" alt="\pmod {m}"></td>
+<td><script type="math/tex">a \bmod b</script></td>
+<td><img src="https://math.jianshu.com/math?formula=a%20%5Cbmod%20b" alt="a \bmod b"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="微分" class="article-heading"><a href="#微分" class="headerlink" title="微分"></a>微分<a class="article-anchor" href="#微分" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\nabla</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnabla" alt="\nabla"></td>
+<td><script type="math/tex">\partial x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpartial%20x" alt="\partial x"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\mathrm{d}x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmathrm%7Bd%7Dx" alt="\mathrm{d}x"></td>
+<td><script type="math/tex">\dot x</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdot%20x" alt="\dot x"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ddot y</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cddot%20y" alt="\ddot y"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="集合" class="article-heading"><a href="#集合" class="headerlink" title="集合"></a>集合<a class="article-anchor" href="#集合" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\forall</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cforall" alt="\forall"></td>
+<td><script type="math/tex">\exists</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cexists" alt="\exists"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\empty</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cempty" alt="\empty"></td>
+<td><script type="math/tex">\emptyset</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cemptyset" alt="\emptyset"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\varnothing</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cvarnothing" alt="\varnothing"></td>
+<td><script type="math/tex">\in</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cin" alt="\in"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ni</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cni" alt="\ni"></td>
+<td><script type="math/tex">\not\in</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnot%5Cin" alt="\not\in"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\notin</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnotin" alt="\notin"></td>
+<td><script type="math/tex">\subset</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csubset" alt="\subset"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\subseteq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csubseteq" alt="\subseteq"></td>
+<td><script type="math/tex">\supset</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csupset" alt="\supset"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\supseteq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csupseteq" alt="\supseteq"></td>
+<td><script type="math/tex">\cap</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccap" alt="\cap"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\bigcap</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigcap" alt="\bigcap"></td>
+<td><script type="math/tex">\cup</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccup" alt="\cup"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\bigcup</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigcup" alt="\bigcup"></td>
+<td><script type="math/tex">\biguplus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbiguplus" alt="\biguplus"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\sqsubset</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqsubset" alt="\sqsubset"></td>
+<td><script type="math/tex">\sqsubseteq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqsubseteq" alt="\sqsubseteq"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\sqsupset</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqsupset" alt="\sqsupset"></td>
+<td><script type="math/tex">\sqsupseteq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqsupseteq" alt="\sqsupseteq"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\sqcap</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqcap" alt="\sqcap"></td>
+<td><script type="math/tex">\sqcup</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqcup" alt="\sqcup"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="逻辑" class="article-heading"><a href="#逻辑" class="headerlink" title="逻辑"></a>逻辑<a class="article-anchor" href="#逻辑" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">p</script></td>
+<td><img src="https://math.jianshu.com/math?formula=p" alt="p"></td>
+<td><script type="math/tex">\land</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cland" alt="\land"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\wedge</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cwedge" alt="\wedge"></td>
+<td><script type="math/tex">\bigwedge</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigwedge" alt="\bigwedge"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\bar{q} \to p</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpagecolor%7BWhite%7D%20%5Cbar%7Bq%7D%20%5Cto%20p" alt="\pagecolor{White} \bar{q} \to p"></td>
+<td><script type="math/tex">\lor</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clor" alt="\lor"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\vee</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cvee" alt="\vee"></td>
+<td><script type="math/tex">\bigvee</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigvee" alt="\bigvee"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\lnot</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clnot" alt="\lnot"></td>
+<td><script type="math/tex">\neg q</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cneg%20q" alt="\neg q"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\setminus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csetminus" alt="\setminus"></td>
+<td><script type="math/tex">\smallsetminus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csmallsetminus" alt="\smallsetminus"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="根号" class="article-heading"><a href="#根号" class="headerlink" title="根号"></a>根号<a class="article-anchor" href="#根号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\sqrt{2}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqrt%7B2%7D" alt="\sqrt{2}"></td>
+<td><script type="math/tex">\sqrt[2]{5}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqrt%5B2%5D%7B5%7D" alt="\sqrt[2]{5}"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="关系符号" class="article-heading"><a href="#关系符号" class="headerlink" title="关系符号"></a>关系符号<a class="article-anchor" href="#关系符号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\Delta ABC\sim\Delta XYZ</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CDelta%20ABC%5Csim%5CDelta%20XYZ%5C!" alt="\Delta ABC\sim\Delta XYZ\!"></td>
+<td><script type="math/tex">\sqrt{3}\approx1.732050808\ldots</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csqrt%7B3%7D%5Capprox1.732050808%5Cldots" alt="\sqrt{3}\approx1.732050808\ldots"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\simeq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csimeq" alt="\simeq"></td>
+<td><script type="math/tex">\cong</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccong" alt="\cong"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\dot=</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdot%3D" alt="\dot="></td>
+<td><script type="math/tex">\ggg</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cggg" alt="\ggg"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\gg</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cgg" alt="\gg"></td>
+<td><script type="math/tex">></script></td>
+<td><img src="https://math.jianshu.com/math?formula=%3E%5C%2C" alt="&gt;\,"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ge</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cge" alt="\ge"></td>
+<td><script type="math/tex">\geqq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cgeqq" alt="\geqq"></td>
+</tr>
+<tr>
+<td><script type="math/tex">=</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%3D%5C%2C" alt="=\,"></td>
+<td><script type="math/tex">\leq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleq" alt="\leq"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\leqq</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleqq" alt="\leqq"></td>
+<td><script type="math/tex"><</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%3C%5C%2C" alt="&lt;\,"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ll</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cll" alt="\ll"></td>
+<td><script type="math/tex">\lll</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clll" alt="\lll"></td>
+</tr>
+<tr>
+<td><script type="math/tex">(x-y)^2\equiv(-x+y)^2\equiv x^2-2xy+y^2</script></td>
+<td><img src="https://math.jianshu.com/math?formula=(x-y" alt="(x-y)^2\equiv(-x+y)^2\equiv x^2-2xy+y^2">%5E2%5Cequiv(-x%2By)%5E2%5Cequiv%20x%5E2-2xy%2By%5E2)</td>
+<td><script type="math/tex">x\not\equiv N</script></td>
+<td><img src="https://math.jianshu.com/math?formula=x%5Cnot%5Cequiv%20N" alt="x\not\equiv N"></td>
+</tr>
+<tr>
+<td><script type="math/tex">x\ne A</script></td>
+<td><img src="https://math.jianshu.com/math?formula=x%5Cne%20A" alt="x\ne A"></td>
+<td><script type="math/tex">x\neq C</script></td>
+<td><img src="https://math.jianshu.com/math?formula=x%5Cneq%20C" alt="x\neq C"></td>
+</tr>
+<tr>
+<td><script type="math/tex">t\propto v</script></td>
+<td><img src="https://math.jianshu.com/math?formula=t%5Cpropto%20v" alt="t\propto v"></td>
+<td><script type="math/tex">\pm</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cpm" alt="\pm"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="几何符号" class="article-heading"><a href="#几何符号" class="headerlink" title="几何符号"></a>几何符号<a class="article-anchor" href="#几何符号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>特征</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>菱形</td>
+<td><script type="math/tex">\Diamond</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CDiamond" alt="\Diamond"></td>
+</tr>
+<tr>
+<td>正方形</td>
+<td><script type="math/tex">\Box</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CBox" alt="\Box"></td>
+</tr>
+<tr>
+<td>Delta</td>
+<td><script type="math/tex">\Delta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CDelta" alt="\Delta"></td>
+</tr>
+<tr>
+<td>三角图形</td>
+<td><script type="math/tex">\triangle</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctriangle" alt="\triangle"></td>
+</tr>
+<tr>
+<td>角名</td>
+<td><script type="math/tex">\angle\Alpha\Beta\Gamma</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cangle%5CAlpha%5CBeta%5CGamma" alt="\angle\Alpha\Beta\Gamma"></td>
+</tr>
+<tr>
+<td>角度</td>
+<td><script type="math/tex">\sin \frac{\pi}{3}=\sin60^\circ=\frac{\sqrt{3}}{2}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csin%20%5Cfrac%7B%5Cpi%7D%7B3%7D%3D%5Csin60%5E%5Ccirc%3D%5Cfrac%7B%5Csqrt%7B3%7D%7D%7B2%7D" alt="\sin \frac{\pi}{3}=\sin60^\circ=\frac{\sqrt{3}}{2}"></td>
+</tr>
+<tr>
+<td>垂直</td>
+<td><script type="math/tex">\perp</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cperp" alt="\perp"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="箭头符号" class="article-heading"><a href="#箭头符号" class="headerlink" title="箭头符号"></a>箭头符号<a class="article-anchor" href="#箭头符号" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\leftarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleftarrow" alt="\leftarrow"></td>
+<td><script type="math/tex">\gets</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cgets" alt="\gets"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\rightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Crightarrow" alt="\rightarrow"></td>
+<td><script type="math/tex">\to</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cto" alt="\to"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\leftrightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleftrightarrow" alt="\leftrightarrow"></td>
+<td><script type="math/tex">\longleftarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clongleftarrow" alt="\longleftarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\longrightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clongrightarrow" alt="\longrightarrow"></td>
+<td><script type="math/tex">\mapsto</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmapsto" alt="\mapsto"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\longmapsto</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clongmapsto" alt="\longmapsto"></td>
+<td><script type="math/tex">\hookrightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chookrightarrow" alt="\hookrightarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\hookleftarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chookleftarrow" alt="\hookleftarrow"></td>
+<td><script type="math/tex">\nearrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnearrow" alt="\nearrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\searrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csearrow" alt="\searrow"></td>
+<td><script type="math/tex">\swarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cswarrow" alt="\swarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\nwarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnwarrow" alt="\nwarrow"></td>
+<td><script type="math/tex">\uparrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cuparrow" alt="\uparrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\downarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdownarrow" alt="\downarrow"></td>
+<td><script type="math/tex">\updownarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cupdownarrow" alt="\updownarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\rightharpoonup</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Crightharpoonup" alt="\rightharpoonup"></td>
+<td><script type="math/tex">\rightharpoondown</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Crightharpoondown" alt="\rightharpoondown"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\leftharpoonup</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleftharpoonup" alt="\leftharpoonup"></td>
+<td><script type="math/tex">\leftharpoondown</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cleftharpoondown" alt="\leftharpoondown"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\upharpoonleft</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cupharpoonleft" alt="\upharpoonleft"></td>
+<td><script type="math/tex">\upharpoonright</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cupharpoonright" alt="\upharpoonright"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Leftarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CLeftarrow" alt="\Leftarrow"></td>
+<td><script type="math/tex">\Rightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CRightarrow" alt="\Rightarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Leftrightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CLeftrightarrow" alt="\Leftrightarrow"></td>
+<td><script type="math/tex">\Longleftarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CLongleftarrow" alt="\Longleftarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Longrightarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CLongrightarrow" alt="\Longrightarrow"></td>
+<td><script type="math/tex">\Longleftrightarrow (or \iff)</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CLongleftrightarrow" alt="\Longleftrightarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Uparrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CUparrow" alt="\Uparrow"></td>
+<td><script type="math/tex">\Downarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CDownarrow" alt="\Downarrow"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Updownarrow</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CUpdownarrow" alt="\Updownarrow"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="特殊符号-1" class="article-heading"><a href="#特殊符号-1" class="headerlink" title="特殊符号"></a>特殊符号<a class="article-anchor" href="#特殊符号-1" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><script type="math/tex">\eth</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ceth" alt="\eth"></td>
+<td><script type="math/tex">\S</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CS" alt="\S"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\%</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5C%25" alt="\%"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><script type="math/tex">\dagger</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdagger" alt="\dagger"></td>
+<td><script type="math/tex">\ddagger</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cddagger" alt="\ddagger"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\star</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cstar" alt="\star"></td>
+<td><script type="math/tex">*</script></td>
+<td><img src="https://math.jianshu.com/math?formula=*" alt="*"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ldots</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cldots" alt="\ldots"></td>
+<td><script type="math/tex">\smile</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csmile" alt="\smile"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\frown</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrown" alt="\frown"></td>
+<td><script type="math/tex">\wr</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cwr" alt="\wr"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\oplus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coplus" alt="\oplus"></td>
+<td><script type="math/tex">\bigoplus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigoplus" alt="\bigoplus"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\otimes</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cotimes" alt="\otimes"></td>
+<td><script type="math/tex">\bigotimes</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigotimes" alt="\bigotimes"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\times</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctimes" alt="\times"></td>
+<td><script type="math/tex">\cdot</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccdot" alt="\cdot"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\div</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdiv" alt="\div"></td>
+<td><script type="math/tex">\circ</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccirc" alt="\circ"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\bullet</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbullet" alt="\bullet"></td>
+<td><script type="math/tex">\bigodot</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigodot" alt="\bigodot"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\boxtimes</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cboxtimes" alt="\boxtimes"></td>
+<td><script type="math/tex">\boxplus</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cboxplus" alt="\boxplus"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\triangleleft</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctriangleleft" alt="\triangleleft"></td>
+<td><script type="math/tex">\triangleright</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctriangleright" alt="\triangleright"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\infty</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cinfty" alt="\infty"></td>
+<td><script type="math/tex">\bot</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbot" alt="\bot"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\top</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ctop" alt="\top"></td>
+<td><script type="math/tex">\vdash</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cvdash" alt="\vdash"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\vDash</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CvDash" alt="\vDash"></td>
+<td><script type="math/tex">\Vdash</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CVdash" alt="\Vdash"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\models</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmodels" alt="\models"></td>
+<td><script type="math/tex">\lVert</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5ClVert" alt="\lVert"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\rVert</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CrVert" alt="\rVert"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><script type="math/tex">\imath</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cimath" alt="\imath"></td>
+<td><script type="math/tex">\hbar</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Chbar" alt="\hbar"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\ell</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cell" alt="\ell"></td>
+<td><script type="math/tex">\mho</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cmho" alt="\mho"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Finv</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CFinv" alt="\Finv"></td>
+<td><script type="math/tex">\Re</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CRe" alt="\Re"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Im</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CIm" alt="\Im"></td>
+<td><script type="math/tex">\wp</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cwp" alt="\wp"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\complement</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccomplement" alt="\complement"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><script type="math/tex">\diamondsuit</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdiamondsuit" alt="\diamondsuit"></td>
+<td><script type="math/tex">\heartsuit</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cheartsuit" alt="\heartsuit"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\clubsuit</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cclubsuit" alt="\clubsuit"></td>
+<td><script type="math/tex">\spadesuit</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cspadesuit" alt="\spadesuit"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\Game</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5CGame" alt="\Game"></td>
+<td><script type="math/tex">\flat</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cflat" alt="\flat"></td>
+</tr>
+<tr>
+<td><script type="math/tex">\natural</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cnatural" alt="\natural"></td>
+<td><script type="math/tex">\sharp</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csharp" alt="\sharp"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="上标、下标、积分等" class="article-heading"><a href="#上标、下标、积分等" class="headerlink" title="上标、下标、积分等"></a>上标、下标、积分等<a class="article-anchor" href="#上标、下标、积分等" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上标</td>
+<td><script type="math/tex">a^2</script></td>
+<td><img src="https://math.jianshu.com/math?formula=a%5E2" alt="a^2"></td>
+</tr>
+<tr>
+<td>下标</td>
+<td><script type="math/tex">a_2</script></td>
+<td><img src="https://math.jianshu.com/math?formula=a_2" alt="a_2"></td>
+</tr>
+<tr>
+<td>组合</td>
+<td><script type="math/tex">a^{2+2}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=a%5E%7B2%2B2%7D" alt="a^{2+2}"></td>
+</tr>
+<tr>
+<td>组合</td>
+<td><script type="math/tex">a_{i,j}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=a_%7Bi%2Cj%7D" alt="a_{i,j}"></td>
+</tr>
+<tr>
+<td>结合上下标</td>
+<td><script type="math/tex">x_2^3</script></td>
+<td><img src="https://math.jianshu.com/math?formula=x_2%5E3" alt="x_2^3"></td>
+</tr>
+<tr>
+<td>前置上下标</td>
+<td><script type="math/tex">{}_1^2\!X_3^4</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%7B%7D_1%5E2%5C!X_3%5E4" alt="{}_1^2\!X_3^4"></td>
+</tr>
+<tr>
+<td>导数</td>
+<td><script type="math/tex">x'</script></td>
+<td><img src="https://math.jianshu.com/math?formula=x%27" alt="x&#39;"></td>
+</tr>
+<tr>
+<td>导数点1</td>
+<td><script type="math/tex">\dot{x}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cdot%7Bx%7D" alt="\dot{x}"></td>
+</tr>
+<tr>
+<td>导数点2</td>
+<td><script type="math/tex">\ddot{y}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cddot%7By%7D" alt="\ddot{y}"></td>
+</tr>
+<tr>
+<td>向量1</td>
+<td><script type="math/tex">\vec{c}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cvec%7Bc%7D" alt="\vec{c}"></td>
+</tr>
+<tr>
+<td>向量2</td>
+<td><script type="math/tex">\overleftarrow{a b}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverleftarrow%7Ba%20b%7D" alt="\overleftarrow{a b}"></td>
+</tr>
+<tr>
+<td>向量3</td>
+<td><script type="math/tex">\overrightarrow{c d}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverrightarrow%7Bc%20d%7D" alt="\overrightarrow{c d}"></td>
+</tr>
+<tr>
+<td>向量4</td>
+<td><script type="math/tex">\widehat{e f g}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cwidehat%7Be%20f%20g%7D" alt="\widehat{e f g}"></td>
+</tr>
+<tr>
+<td>上弧(注: 正确应该用 \overarc, 但在这里行不通。要用建议的语法作为解决办法)</td>
+<td><script type="math/tex">\overset{\frown} {AB}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverset%7B%5Cfrown%7D%20%7BAB%7D" alt="\overset{\frown} {AB}"></td>
+</tr>
+<tr>
+<td>上划线1</td>
+<td><script type="math/tex">\overline{h i j}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverline%7Bh%20i%20j%7D" alt="\overline{h i j}"></td>
+</tr>
+<tr>
+<td>下划线2</td>
+<td><script type="math/tex">\underline{k l m}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cunderline%7Bk%20l%20m%7D" alt="\underline{k l m}"></td>
+</tr>
+<tr>
+<td>上括号1</td>
+<td><script type="math/tex">\overbrace{1+2+\cdots+100}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coverbrace%7B1%2B2%2B%5Ccdots%2B100%7D" alt="\overbrace{1+2+\cdots+100}"></td>
+</tr>
+<tr>
+<td>上括号2</td>
+<td><script type="math/tex">\begin{matrix} 5050 \\ \overbrace{ 1+2+\cdots+100 }\end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%205050%20%5C%5C%20%5Coverbrace%7B%201%2B2%2B%5Ccdots%2B100%20%7D%5Cend%7Bmatrix%7D" alt="\begin{matrix} 5050 \\ \overbrace{ 1+2+\cdots+100 }\end{matrix}"></td>
+</tr>
+<tr>
+<td>下括号1</td>
+<td><script type="math/tex">\underbrace{a+b+\cdots+z}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cunderbrace%7Ba%2Bb%2B%5Ccdots%2Bz%7D" alt="\underbrace{a+b+\cdots+z}"></td>
+</tr>
+<tr>
+<td>下括号2</td>
+<td><script type="math/tex">\begin{matrix} \underbrace{ a+b+\cdots+z } \\ 26\end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cunderbrace%7B%20a%2Bb%2B%5Ccdots%2Bz%20%7D%20%5C%5C%2026%5Cend%7Bmatrix%7D" alt="\begin{matrix} \underbrace{ a+b+\cdots+z } \\ 26\end{matrix}"></td>
+</tr>
+<tr>
+<td>求和 1</td>
+<td><script type="math/tex">\sum_{k=1}^N k^2</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Csum_%7Bk%3D1%7D%5EN%20k%5E2" alt="\sum_{k=1}^N k^2"></td>
+</tr>
+<tr>
+<td>求和 2</td>
+<td><script type="math/tex">\begin{matrix} \sum_{k=1}^N k^2 \end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Csum_%7Bk%3D1%7D%5EN%20k%5E2%20%5Cend%7Bmatrix%7D" alt="\begin{matrix} \sum_{k=1}^N k^2 \end{matrix}"></td>
+</tr>
+<tr>
+<td>求积 1</td>
+<td><script type="math/tex">\prod_{i=1}^N x_i</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cprod_%7Bi%3D1%7D%5EN%20x_i" alt="\prod_{i=1}^N x_i"></td>
+</tr>
+<tr>
+<td>求积 2</td>
+<td><script type="math/tex">\begin{matrix} \prod_{i=1}^N x_i \end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cprod_%7Bi%3D1%7D%5EN%20x_i%20%5Cend%7Bmatrix%7D" alt="\begin{matrix} \prod_{i=1}^N x_i \end{matrix}"></td>
+</tr>
+<tr>
+<td>上积 1</td>
+<td><script type="math/tex">\coprod_{i=1}^N x_i</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ccoprod_%7Bi%3D1%7D%5EN%20x_i" alt="\coprod_{i=1}^N x_i"></td>
+</tr>
+<tr>
+<td>上积 2</td>
+<td><script type="math/tex">\begin{matrix} \coprod_{i=1}^N x_i\end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Ccoprod_%7Bi%3D1%7D%5EN%20x_i%5Cend%7Bmatrix%7D" alt="\begin{matrix} \coprod_{i=1}^N x_i\end{matrix}"></td>
+</tr>
+<tr>
+<td>极限 1</td>
+<td><script type="math/tex">\lim_{n \to \infty}x_n</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Clim_%7Bn%20%5Cto%20%5Cinfty%7Dx_n" alt="\lim_{n \to \infty}x_n"></td>
+</tr>
+<tr>
+<td>极限 2</td>
+<td><script type="math/tex">\begin{matrix} \lim_{n \to \infty}x_n\end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Clim_%7Bn%20%5Cto%20%5Cinfty%7Dx_n%5Cend%7Bmatrix%7D" alt="\begin{matrix} \lim_{n \to \infty}x_n\end{matrix}"></td>
+</tr>
+<tr>
+<td>积分 1</td>
+<td><script type="math/tex">\int_{-N}^{N} e^x\, dx</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cint_%7B-N%7D%5E%7BN%7D%20e%5Ex%5C%2C%20dx" alt="\int_{-N}^{N} e^x\, dx"></td>
+</tr>
+<tr>
+<td>积分 2</td>
+<td><script type="math/tex">\begin{matrix} \int_{-N}^{N} e^x\, dx\end{matrix}</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20%5Cint_%7B-N%7D%5E%7BN%7D%20e%5Ex%5C%2C%20dx%5Cend%7Bmatrix%7D" alt="\begin{matrix} \int_{-N}^{N} e^x\, dx\end{matrix}"></td>
+</tr>
+<tr>
+<td>双重积分</td>
+<td><script type="math/tex">\iint_{D}^{W} \, dx\,dy</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ciint_%7BD%7D%5E%7BW%7D%20%5C%2C%20dx%5C%2Cdy" alt="\iint_{D}^{W} \, dx\,dy"></td>
+</tr>
+<tr>
+<td>三重积分</td>
+<td><script type="math/tex">\iiint_{E}^{V} \, dx\,dy\,dz</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ciiint_%7BE%7D%5E%7BV%7D%20%5C%2C%20dx%5C%2Cdy%5C%2Cdz" alt="\iiint_{E}^{V} \, dx\,dy\,dz"></td>
+</tr>
+<tr>
+<td>四重积分</td>
+<td><script type="math/tex">\iiiint_{F}^{U} \, dx\,dy\,dz\,dt</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Ciiiint_%7BF%7D%5E%7BU%7D%20%5C%2C%20dx%5C%2Cdy%5C%2Cdz%5C%2Cdt" alt="\iiiint_{F}^{U} \, dx\,dy\,dz\,dt"></td>
+</tr>
+<tr>
+<td>闭合的曲线、曲面积分</td>
+<td><script type="math/tex">\oint_{C} x^3\, dx + 4y^2\, dy</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Coint_%7BC%7D%20x%5E3%5C%2C%20dx%20%2B%204y%5E2%5C%2C%20dy" alt="\oint_{C} x^3\, dx + 4y^2\, dy"></td>
+</tr>
+<tr>
+<td>交集</td>
+<td><script type="math/tex">\bigcap_1^{n} p</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigcap_1%5E%7Bn%7D%20p" alt="\bigcap_1^{n} p"></td>
+</tr>
+<tr>
+<td>并集</td>
+<td><script type="math/tex">\bigcup_1^{k} p</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cbigcup_1%5E%7Bk%7D%20p" alt="\bigcup_1^{k} p"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="空格" class="article-heading"><a href="#空格" class="headerlink" title="空格"></a>空格<a class="article-anchor" href="#空格" aria-hidden="true"></a></h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>语法</th>
+<th>显示</th>
+<th>宽度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2个quad空格</td>
+<td><script type="math/tex">\alpha\qquad\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5Cqquad%5Cbeta" alt="\alpha\qquad\beta"></td>
+<td>2m</td>
+</tr>
+<tr>
+<td>quad空格</td>
+<td><script type="math/tex">\alpha\quad\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5Cquad%5Cbeta" alt="\alpha\quad\beta"></td>
+<td>m</td>
+</tr>
+<tr>
+<td>大空格</td>
+<td><script type="math/tex">\alpha\ \beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5C%20%5Cbeta" alt="\alpha\ \beta"></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrac%7Bm%7D%7B3%7D" alt="\frac{m}{3}"></td>
+</tr>
+<tr>
+<td>中等空格</td>
+<td><script type="math/tex">\alpha\;\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5C%3B%5Cbeta" alt="\alpha\;\beta"></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrac%7B2m%7D%7B7%7D" alt="\frac{2m}{7}"></td>
+</tr>
+<tr>
+<td>小空格</td>
+<td><script type="math/tex">\alpha\,\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5C%2C%5Cbeta" alt="\alpha\,\beta"></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Cfrac%7Bm%7D%7B6%7D" alt="\frac{m}{6}"></td>
+</tr>
+<tr>
+<td>没有空格</td>
+<td><script type="math/tex">\alpha\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5Cbeta" alt="\alpha\beta"></td>
+<td>0</td>
+</tr>
+<tr>
+<td>紧贴</td>
+<td><script type="math/tex">\alpha\!\beta</script></td>
+<td><img src="https://math.jianshu.com/math?formula=%5Calpha%5C!%5Cbeta" alt="\alpha\!\beta"></td>
+<td><img src="https://math.jianshu.com/math?formula=-%5Cfrac%7Bm%7D%7B6%7D" alt="-\frac{m}{6}"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+</section>
+<script>
+  var disqus_shortname = 'www-toberoot-com';
+  var disqus_url = 'http://www.toberoot.com/news/2021/05/04/markdown%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7/index.html';
+  var disqus_title = "Markdown 数学符号";
+  var disqus_config = function(){
+    this.language = 'zh';
+  };
+  (function(){
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+</article>
+
+
+      <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              
+<div id="carbonads">
+<span>
+<span class="carbon-wrap">
+<a href="https://github.com/booboowei" class="carbon-img" target="_blank" rel="noopener sponsored external nofollow noreferrer">
+    <img src="https://avatars2.githubusercontent.com/u/21328020?s=460&u=88cf6127c32932188f936d05636b7b0d36783ee1&v=4"
+    alt="ads via Carbon" border="0" style="max-width: 130px;">
+</a>
+<a href="/about/" class="carbon-text" target="_blank" rel="noopener sponsored">除了自己的无知，我什么都不知道</a>
+</span>
+</span>
+
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown-%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7"><span class="toc-text">Markdown 数学符号</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D"><span class="toc-text">希腊字母</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7"><span class="toc-text">数学符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7"><span class="toc-text">特殊符号</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E3%80%81%E7%AC%A6%E5%8F%B7%E5%8F%8A%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6"><span class="toc-text">函数、符号及特殊字符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A3%B0%E8%B0%83"><span class="toc-text">声调</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-text">函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8C%E4%BD%99"><span class="toc-text">同余</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AE%E5%88%86"><span class="toc-text">微分</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%86%E5%90%88"><span class="toc-text">集合</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%BB%E8%BE%91"><span class="toc-text">逻辑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B9%E5%8F%B7"><span class="toc-text">根号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E7%AC%A6%E5%8F%B7"><span class="toc-text">关系符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E4%BD%95%E7%AC%A6%E5%8F%B7"><span class="toc-text">几何符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%AD%E5%A4%B4%E7%AC%A6%E5%8F%B7"><span class="toc-text">箭头符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7-1"><span class="toc-text">特殊符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E6%A0%87%E3%80%81%E4%B8%8B%E6%A0%87%E3%80%81%E7%A7%AF%E5%88%86%E7%AD%89"><span class="toc-text">上标、下标、积分等</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A9%BA%E6%A0%BC"><span class="toc-text">空格</span></a></li></ol></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+    </div>
+  </div>
+</div>
+
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2022 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">魏亚萍</a><br>
+      Documentation licensed under <a href="https://choosealicense.com/licenses/agpl-3.0/" rel="external nofollow noreferrer" target="_blank">GNU AGPLv3</a><br>
+      备案号：沪ICP备2020026043号
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/BoobooWei" rel="external nofollow noreferrer" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+      <a href="http://www.toberoot.com/">大宝</a><
+      <a href="https://www.huangjingxue.com/" rel="external nofollow noreferrer" target="_blank">衾袭</a><
+      <a href="https://husky-wu.github.io/" rel="external nofollow noreferrer" target="_blank">明夋</a><
+      <a href="https://footman-ljn.github.io/" rel="external nofollow noreferrer" target="_blank">伊斯</a>
+    </div>
+  </div>
+  <br>
+  <div class="inner">
+  </div>
+
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/api/" class="mobile-nav-link">MySQL8.0</a><a href="/database/" class="mobile-nav-link">Database</a><a href="/devops/" class="mobile-nav-link">DevOps</a><a href="/linux/" class="mobile-nav-link">Linux</a><a href="/cloud/" class="mobile-nav-link">Cloud</a><a href="/mse/" class="mobile-nav-link">MSE</a><a href="/singapore/" class="mobile-nav-link">Singapore</a><a href="/news/" class="mobile-nav-link">News</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/BoobooWei" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="">
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/toc.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+<!-- at the end of the BODY -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+    apiKey: 'ad652bf20bcd81434ad119c8cf34722e',
+    indexName: 'toberoot',
+    inputSelector: '#search-input'
+});
+</script>
+
+<!--   backup
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'ad652bf20bcd81434ad119c8cf34722e',
+  indexName: 'toberoot',
+  inputSelector: '#search-input'
+});
+</script>
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+
+
+
+</body>
+</html>
